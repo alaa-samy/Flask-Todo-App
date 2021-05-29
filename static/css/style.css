@@ -1,0 +1,66 @@
+body {
+  position: relative;
+  display: block;
+  padding: 50px;
+  background-color: darkcyan;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+form{
+    margin-bottom: 40px;
+}
+form label {
+  font-size: 23px;
+  margin-right: 10px;
+}
+form input {
+    width: 400px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    font-size: 16px;
+}
+form input:focus-visible{
+    outline: unset;
+}
+form button{
+    padding: 12px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: unset;
+    background: #000;
+    color: #fff;
+    cursor:pointer
+}
+.ui.segment{
+    width: 50%;
+    margin: 10px auto;
+    background-color: #000;
+    padding: 15px;
+    border-radius: 5px;
+}
+.ui.segment p{
+    font-size: 25px;
+    margin-top: 0;
+}
+.ui.segment span{
+    margin-right:100px
+}
+.ui.segment a{
+    margin: 10px;
+    text-decoration: unset;
+    font-size: 16px;
+}
+.ui.segment a.update{
+    color:green
+}
+.ui.segment a.delete{
+    color:red
+}
